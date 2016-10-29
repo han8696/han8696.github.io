@@ -1,0 +1,199 @@
+<!doctype html>
+<!--[if IE 6]> <html class="ie6"> <![endif]-->
+<!--[if IE 7]> <html class="ie7"> <![endif]-->
+<!--[if IE 8]> <html class="ie8"> <![endif]-->
+<!--[if IE 9]> <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+	<html lang="ja">
+<!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<!--page info-->
+<title>ampersands</title>
+<meta name="keywords" content="Ampersands,アンパサンズ,デザイン会社,デザイン,アートディレクション,飛嶋由馬,中村圭佑,エディトリアルデザイン,グラフィックデザイン,Webデザイン,CYAN" />
+<meta name="description" content="アートディレクターの飛嶋由馬、中村圭佑が2012年に設立したデザインチーム。媒体や形式にこだわらず、デザインを通じたコミュニケーションで、常に人とプロジェクトとの良質な関係を築けるように考えている。"/>
+<!--og-->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="ampsds.jp" />
+<meta property="og:image" content="/assets/img/og_image.jpg" />
+<meta property="og:title" content="ampersands" />
+<meta property="og:description" content="アートディレクターの飛嶋由馬、中村圭佑が2012年に設立したデザインチーム。媒体や形式にこだわらず、デザインを通じたコミュニケーションで、常に人とプロジェクトとの良質な関係を築けるように考えている。" />
+<meta property="og:site_name" content="ampersands" />
+<meta property="og:locale" content="ja_JP">
+<meta property="fb:app_id" content="966242223397117" />
+
+
+
+<!--favicon-->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<!--css-->
+<link rel="stylesheet" type="text/css" href="/assets/css/.css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+<!--js-->
+<script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/assets/js/easing.js"></script>
+<script type="text/javascript" src="/assets/js/inview.js"></script>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+
+
+
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+header,footer,nav,section,article,figure,aside {
+　display:block;
+}
+/* 全固定ページで非表示 */
+.page .entry-title {
+    display: none;
+}
+/* 全投稿ページで非表示 */
+.single.entry-title {
+    display: none;
+}
+.entry-footer{
+    display: none;
+}
+
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41596624-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<div class="loadingLay">
+	<div class="loading-img"><img src="/assets/img/footer_logo.png" alt=""></div>
+</div>
+<header>
+	<div class="header-inner">
+        <div class="header-logo">
+			<a href="/">
+				<img src="/assets/img/header_logo.png" alt="ampsands" class="pci" width="128px">
+				<img src="/assets/img/sp_logo.png" alt="ampsands" class="spi">
+			</a>        
+        </div>
+        <!--<div class="header-langage">
+            <p>
+                <a href="">JP</a>/<a href="">EN</a>
+            </p>
+        </div>-->
+        <nav class="header-nav">
+            <ul class="nav-list pc">
+                <li class="nav-about"><a href="/about/">ABOUT</a></li>
+                <li class="nav-news"><a href="/category/news/">NEWS</a></li>
+                <li class="nav-project"><a href="/category/project/">PROJECTS</a></li>
+                <li class="navpc"><a href="http://amplog.jp/" target="_blank">AMPLOG</a></li>
+                <li class="navpc nav-contact"><a href="/contact/">CONTACT</a></li>
+            </ul>
+            <ul class="nav-list sp">
+                <li class="nav-about"><a href="/about/"><img src="/assets/img/sp_header_about.png" alt="about"></a></li>
+                <li class="nav-news"><a href="/category/news/"><img src="/assets/img/sp_header_news.png" alt="about"></a></li>
+                <li class="nav-project"><a href="/category/project/"><img src="/assets/img/sp_header_project.png" alt="about"></a></li>
+                <li class=""><a href="http://amplog.jp/" target="_blank"><img src="/assets/img/sp_header_amplog.png" alt="about"></a></li>
+                <li class="nav-contact"><a href="/contact/"><img src="/assets/img/sp_header_contact.png" alt="about"></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--<div class="sp-header-bottom sp">
+    	<ul class="bottom-nav-list">
+        	<li><a href="http://amplog.jp/" target="_blank">AMPLOG</a></li>
+        	<li class="nav-contact"><a href="/contact/">CONTACT</a></li>
+        </ul>
+        <ul class="bottom-sns-list">
+        	<li><a href="https://www.facebook.com/ampsds/?ref=bookmarks" target="_blank"><img src="/assets/img/sp-footer-fb.png" alt="facebook"></a></li>
+        	<li><a href="https://www.instagram.com/ampersands_inc/" target="_blank"><img src="/assets/img/sp_footer_instagram_2x.png" alt=""></a></li>
+        	<li><a href="https://vimeo.com/user55934627" target="_blank"><img src="/assets/img/sp-footer-v.png" alt="v"></a></li>
+        </ul>
+    </div>-->
+</header>
+<div id="allWrap">
+
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<section class="error-404 not-found">
+				<header class="page-header">
+					<h1 class="page-title">このページは見つかりません。</h1>
+				</header><!-- .page-header -->
+
+				<div class="page-content">
+					<p>こちらには何もありません。検索をお試しください。</p>
+
+					<form role="search" method="get" class="search-form" action="http://ampsds.jp/">
+				<label>
+					<span class="screen-reader-text">検索:</span>
+					<input type="search" class="search-field" placeholder="検索 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="検索" />
+			</form>				</div><!-- .page-content -->
+			</section><!-- .error-404 -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+<footer>
+	<div class="footer-inner pc">
+    	<div class="footer-left">
+            <ul class="footer-nav">
+                <li><a href="/about/">ABOUT</a></li>
+                <li><a href="/category/news/">NEWS</a></li>
+                <li><a href="/category/project/">PROJECTS</a></li>
+                <li><a href="http://amplog.jp/" target="_blank">AMPLOG</a></li>
+                <li><a href="/contact/">CONTACT</a></li>
+                
+            </ul>
+            <p class="footer-copy">Copyright © 2015 ampersands inc.</p>
+        </div>
+        <div class="footer-right">
+        	<ul class="sns-list">
+            	<li><a href="https://www.facebook.com/ampsds/?ref=bookmarks" target="_blank"><img src="/assets/img/footer_fb.png" alt="facebook"></a></li>
+            	<li><a href="https://www.instagram.com/ampersands_inc/" target="_blank"><img src="/assets/img/footer_instagram.png" alt="instagram"></a></li>
+            	<li><a href="https://vimeo.com/user55934627" target="_blank"><img src="/assets/img/footer_vimeo.png" alt="vimeo"></a></li>
+            </ul>
+            <ul class="footer-info">
+                <li><a href="/privacypolicy/">PRIVACY POLICY</a></li>
+                <li><a href="/sitepolicy/">SITE POLICY</a></li>
+                <li><a href="mailto:info@ampsds.jp">info@ampsds.jp</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="footer-inner sp">
+    	<ul class="sp-sns-list">
+        	<li><a href="https://www.facebook.com/ampsds/?ref=bookmarks" target="_blank"><img src="/assets/img/sp-footer-fb.png" alt="facebook"></a></li>
+        	<li><a href="https://www.instagram.com/ampersands_inc/" target="_blank"><img src="/assets/img/sp_footer_instagram_2x.png" alt=""></a></li>
+        	<li><a href="https://vimeo.com/user55934627" target="_blank"><img src="/assets/img/sp-footer-v.png" alt="v"></a></li>
+        </ul>
+		<ul class="sp-footer-info">
+            <li><a href="/privacypolicy/">PRIVACY POLICY</a></li>
+            <li><a href="/sitepolicy/">SITE POLICY</a></li>
+            <li class="footer-mail"><a href="mailto:info@ampsds.jp">info@ampsds.jp</a></li>
+        </ul>
+
+    	<div class="sp-footer-logo"><img src="/assets/img/header_logo2.png"></div>
+        <p class="sp-footer-copy">© 2015 ampersands inc.</p>
+
+    </div>
+</footer>
+</div><!--allWrap END-->
+</body>
+</html>
+
+
+
